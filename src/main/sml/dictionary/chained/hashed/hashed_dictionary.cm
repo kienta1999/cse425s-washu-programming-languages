@@ -1,0 +1,11 @@
+Library
+    signature HASHED_DICTIONARY
+    structure HashedDictionary
+is
+    hashed_dictionary.sig
+    hashed_dictionary.sml
+    ../has_chaining.cm
+    ../../has_entries.cm
+    ../../dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

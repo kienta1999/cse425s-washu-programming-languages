@@ -1,0 +1,18 @@
+Library
+    structure UnitTesting
+	structure BoolTest
+	structure RealTest
+    functor EqualityTestFn
+    structure IntTest
+	structure StringTest
+is
+    unit_testing.sml
+    bool_test.sml
+    real_test.sml
+    equality_test.sml
+    int_test.sml
+    string_test.sml
+    ../command_line_args/command_line_args.cm
+    ../../../core/sml/repr/repr.cm
+    $/basis.cm
+    $/smlnj-lib.cm

@@ -1,0 +1,11 @@
+Library
+    functor DictionaryTestingFn
+	structure StringIntEntryTest
+is
+    dictionary_testing.sml
+    string_int_entry_test.sml
+    ../unit_testing/unit_testing.cm
+    ../../../core/sml/repr/repr.cm
+    ../../../main/sml/dictionary/dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

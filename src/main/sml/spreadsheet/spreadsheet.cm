@@ -1,0 +1,10 @@
+Library
+    signature SPREADSHEET
+    structure Spreadsheet
+is
+    spreadsheet.sig
+    spreadsheet.sml
+    csv.cm
+    ../dictionary/chained/single/single_chained_dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

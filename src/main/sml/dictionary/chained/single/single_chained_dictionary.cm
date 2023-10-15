@@ -1,0 +1,11 @@
+Library
+    signature SINGLE_CHAINED_DICTIONARY
+    structure SingleChainedDictionary
+is
+    single_chained_dictionary.sig
+    single_chained_dictionary.sml
+    ../has_chaining.cm
+    ../../has_entries.cm
+    ../../dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

@@ -1,0 +1,11 @@
+Library
+    signature SORTED_DICTIONARY
+    structure SortedDictionary
+is
+    sorted_dictionary.sig
+    sorted_dictionary.sml
+    ../has_entries.cm
+    ../dictionary.cm
+    ../../binary_search_tree/binary_search_tree.cm
+    $/basis.cm
+    $/smlnj-lib.cm

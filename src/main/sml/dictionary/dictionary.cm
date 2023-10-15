@@ -1,0 +1,6 @@
+Library
+    signature DICTIONARY
+is
+    dictionary.sig
+    $/basis.cm
+    $/smlnj-lib.cm

@@ -1,0 +1,8 @@
+Library
+    functor HasEntriesFn
+	signature HAS_ENTRIES
+is
+    has_entries.sml
+    has_entries.sig
+    $/basis.cm
+    $/smlnj-lib.cm

@@ -1,0 +1,17 @@
+Score: 0.88
+LineSegment#preprocess_prog: LineSegment.new(3.2,4.1,3.200009,4.099990999999999) should preprocess to Point.new(3.2,4.1) (actual result LineSegment.new(3.2,4.1,3.200009,4.099990999999999)) [incorrect answer]
+LineSegment#preprocess_prog: LineSegment.new(1.0,1.0,1.00000999,1.0) should preprocess to Point.new(1.0,1.0) (actual result LineSegment.new(1.0,1.0,1.00000999,1.0)) [incorrect answer]
+LineSegment#preprocess_prog: LineSegment.new(1.0,1.0,0.0,0.0) should preprocess to LineSegment.new(0.0,0.0,1.0,1.0) (actual result LineSegment.new(1.0,1.0,0.0,0.0)) [incorrect answer]
+LineSegment#preprocess_prog: LineSegment.new(0.5,2.0,0.4,2.0) should preprocess to LineSegment.new(0.4,2.0,0.5,2.0) (actual result LineSegment.new(0.5,2.0,0.4,2.0)) [incorrect answer]
+LineSegment#preprocess_prog: LineSegment.new(1.0,2.0,1.0,1.0) should preprocess to LineSegment.new(1.0,1.0,1.0,2.0) (actual result LineSegment.new(1.0,2.0,1.0,1.0)) [incorrect answer]
+Let#preprocess_prog: Let.new("x",LineSegment.new(1.0,2.0,1.0,2.0),LineSegment.new(2.0,3.0,1.0,0.0)) should preprocess to Let.new("x",Point.new(1.0,2.0),LineSegment.new(1.0,0.0,2.0,3.0)) (actual result Let.new("x",LineSegment.new(1.0,2.0,1.0,2.0),LineSegment.new(2.0,3.0,1.0,0.0))) [incorrect answer]
+Let#eval_prog: Let.new("x",NoPoints.new,Let.new("x",Point.new(0.0,0.0),Var.new("x"))) should evaluate to Point.new(0.0,0.0) given env==[] (actual: NoPoints.new) [incorrect answer]
+Shift#preprocess_prog: Shift.new(2.0,3.2,LineSegment.new(1.0,2.0,1.0,2.0)) should preprocess to Shift.new(2.0,3.2,Point.new(1.0,2.0)) (actual result Shift.new(2.0,3.2,LineSegment.new(1.0,2.0,1.0,2.0))) [incorrect answer]
+Shift#preprocess_prog: Shift.new(2.0,3.2,LineSegment.new(2.0,3.0,1.0,0.0)) should preprocess to Shift.new(2.0,3.2,LineSegment.new(1.0,0.0,2.0,3.0)) (actual result Shift.new(2.0,3.2,LineSegment.new(2.0,3.0,1.0,0.0))) [incorrect answer]
+Intersect#preprocess_prog: Intersect.new(LineSegment.new(1.0,2.0,1.0,2.0),LineSegment.new(2.0,3.0,1.0,0.0)) should preprocess to Intersect.new(Point.new(1.0,2.0),LineSegment.new(1.0,0.0,2.0,3.0)) (actual result Intersect.new(LineSegment.new(1.0,2.0,1.0,2.0),LineSegment.new(2.0,3.0,1.0,0.0))) [incorrect answer]
+intersect_methods(LineSegment#intersect): LineSegment.new(2.0,3.0,4.0,9.0).intersect(LineSegment.new(0.0,-3.0,6.0,15.0)) should equal LineSegment.new(2.0,3.0,4.0,9.0) (actual: LineSegment.new(0.0,-3.0,6.0,15.0)) [incorrect answer]
+intersect_methods(LineSegment#intersect): LineSegment.new(2.0,3.0,6.0,15.0).intersect(LineSegment.new(0.0,-3.0,4.0,9.0)) should equal LineSegment.new(2.0,3.0,4.0,9.0) (actual: LineSegment.new(0.0,-3.0,4.0,9.0)) [incorrect answer]
+intersect_methods(LineSegment#intersectLineSegment): LineSegment.new(2.0,3.0,6.0,15.0).intersectLineSegment(LineSegment.new(0.0,-3.0,4.0,9.0)) should equal LineSegment.new(2.0,3.0,4.0,9.0) (actual: LineSegment.new(2.0,3.0,6.0,15.0)) [incorrect answer]
+
+Because the auto-grader gave a score above 60, here is the link to a message from a very cute dog: https://drive.google.com/file/d/0B5sUgbs6aDNpSXBkMVZmelJJX1U/view?pref=2&pli=1
+

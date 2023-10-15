@@ -1,0 +1,11 @@
+Library
+    signature IS_STRICTLY_ASCENDING_UTIL
+    structure IsStrictlyAscendingUtil
+is
+    util_is_strictly_ascending.sig
+    util_is_strictly_ascending.sml
+    ../command_line_args/command_line_args.cm
+    ../unit_test/unit_test.cm
+    ../../../core/sml/repr/repr.cm
+    $/basis.cm
+    $/smlnj-lib.cm

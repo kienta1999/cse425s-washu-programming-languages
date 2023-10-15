@@ -1,0 +1,1 @@
+structure SingleChainedDictionaryTesting = DictionaryTestingFn (SingleChainedDictionary)

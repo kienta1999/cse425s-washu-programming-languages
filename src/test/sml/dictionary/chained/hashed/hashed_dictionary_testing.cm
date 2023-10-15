@@ -1,0 +1,8 @@
+Library
+    structure HashedDictionaryTesting
+is
+    hashed_dictionary_testing.sml
+    ../../dictionary_testing.cm
+    ../../../../../main/sml/dictionary/chained/hashed/hashed_dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

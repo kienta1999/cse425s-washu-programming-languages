@@ -1,0 +1,16 @@
+Library
+    signature TEST_SPREADSHEET
+    structure TestSpreadsheet
+    structure CellTest
+is
+    spreadsheet_test.sig
+    spreadsheet_test.sml
+    cell_test.sml
+    ../unit_testing/unit_testing.cm
+    ../dictionary/chained/single/single_chained_dictionary_testing.cm
+    ../../../core/sml/repr/repr.cm
+    ../../../main/sml/spreadsheet/csv.cm
+    ../../../main/sml/spreadsheet/spreadsheet.cm
+    ../../../main/sml/dictionary/chained/single/single_chained_dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

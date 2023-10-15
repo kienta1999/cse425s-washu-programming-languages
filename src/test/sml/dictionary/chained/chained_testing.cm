@@ -1,0 +1,12 @@
+Library
+    structure ChainedTesting
+is
+    chained_testing.sml
+    single/single_chained_dictionary_testing.cm
+    hashed/hashed_dictionary_testing.cm
+	../../command_line_args/command_line_args.cm
+    ../../unit_testing/unit_testing.cm
+    ../../../../main/sml/dictionary/chained/single/single_chained_dictionary.cm
+    ../../../../main/sml/dictionary/chained/hashed/hashed_dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

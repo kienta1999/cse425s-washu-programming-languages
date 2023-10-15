@@ -1,0 +1,11 @@
+Library
+    structure CompleteUnitTestBinarySearchTree
+is
+    complete_unit_test_binary_search_tree.sml
+	core_unit_test_binary_search_tree.sml
+     ../unit_test/unit_test.cm
+    ../command_line_args/command_line_args.cm
+    ../../../core/sml/repr/repr.cm
+    ../../../main/sml/binary_search_tree/binary_search_tree.cm
+   $/basis.cm
+    $/smlnj-lib.cm

@@ -1,0 +1,12 @@
+Library
+    signature UNIT_TEST
+    structure UnitTest
+is
+    unit_test.sig
+    unit_test.sml
+    unit_test_base.sig
+    unit_test_base.sml
+    ../command_line_args/command_line_args.cm
+    ../../../core/sml/repr/repr.cm
+    $/basis.cm
+    $/smlnj-lib.cm

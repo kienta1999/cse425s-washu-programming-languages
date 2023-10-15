@@ -1,0 +1,11 @@
+/target/
+
+**/.cm/
+
+**/*.bak
+**/*~
+**/compiled
+**/*.svg
+
+**/.idea
+

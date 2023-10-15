@@ -1,0 +1,7 @@
+Library
+    signature COMMAND_LINE_ARGS
+    structure CommandLineArgs
+is
+    command_line_args.sml
+    $/basis.cm
+    $/smlnj-lib.cm

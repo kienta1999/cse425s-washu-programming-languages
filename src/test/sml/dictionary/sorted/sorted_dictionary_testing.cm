@@ -1,0 +1,9 @@
+Library
+    structure SortedDictionaryTesting
+is
+    sorted_dictionary_testing.sml
+    ../../unit_test/unit_test.cm
+    ../dictionary_testing.cm
+    ../../../../main/sml/dictionary/sorted/sorted_dictionary.cm
+    $/basis.cm
+    $/smlnj-lib.cm

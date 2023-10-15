@@ -1,0 +1,8 @@
+# require 'test/unit/testsuite'
+require_relative '../part_a_bare_bones/part_a_bare_bones_test_suite.rb'
+require_relative 'part_b_class_hierarchy_and_method_definitions_unit_test'
+require_relative 'part_b_push_component_test'
+require_relative 'part_b_scene_background_test'
+require_relative 'part_b_transforms_test'
+require_relative 'part_b_components_image_diff_unit_test'
+require_relative 'part_b_composites_image_diff_unit_test'

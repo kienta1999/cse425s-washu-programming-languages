@@ -1,0 +1,8 @@
+Library
+    functor HasChainingFn
+    signature HAS_CHAINING
+is
+    has_chaining.sml
+    has_chaining.sig
+    $/basis.cm
+    $/smlnj-lib.cm
